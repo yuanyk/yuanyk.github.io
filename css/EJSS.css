@@ -1,0 +1,86 @@
+body {
+    background: #FFF;
+    color: black;
+    margin: 0 9px 0 8px;
+    padding-top: 0;
+    border-top: 0;
+}
+
+#ejssCHeader {
+
+    margin: 6px 0 .8em;
+    font-size: 110%;
+    font-weight: bold
+}
+
+h3 {
+    border-bottom: 1px solid #8F6900;
+    color: black;
+}
+
+h4 {
+    margin: 1.1em 0 .7em;
+    font-size: 105%;
+    font-weight: bold;
+    font-style: normal;
+    clear: both;
+    color: black;
+    border-bottom-color: black;
+}
+
+.EJSSContentBlock {
+    margin: .4em 0 1.3em;
+}
+
+#title_author {
+    display: none
+}
+
+.metadata>div#copyright_message {
+    display: block;
+    clear: both;
+}
+
+.cc_left {
+    vertical-align: bottom;
+    float: left
+}
+
+#ejssEmbed {
+    background: white;
+    border: 1px solid lightblue;
+    color: blue;
+    float: right;
+    align: right;
+    padding: 3px;
+    margin-left: .7em;
+    margin-top: -5px;
+    font-size: 85%;
+}
+
+#embedIt {
+    background: #F9F9F9;
+    border: 1px solid lightblue;
+    color: green;
+    align: right;
+    top: 31px;
+    right: 8px;
+    position: absolute;
+    width: 85%;
+    padding: 5px 5px 5px 12px;
+    font-size: 85%;
+    z-index: 1000;
+}
+
+
+#NearFocalPointShape{
+  fill:red;
+}
+#DrawingPanel {
+  stroke:yellow;
+}
+
+#SecondMainPanel {
+  padding: 10px;
+  margin: 5px;
+}
